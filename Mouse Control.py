@@ -117,9 +117,11 @@ while True:
     #showing the results 
     cv2.imshow("Virtual mouse",img)
 
-    #waiting for 'W' to be pressed to quit 
-    if cv2.waitKey(1) & 0xFF==ord('w'):
+    #waiting for 'q' to be pressed to quit 
+    if cv2.waitKey(1) & 0xFF==ord('q'):
         break
 
 cap.release()
 cv2.destroyAllWindows()
+
+
